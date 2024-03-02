@@ -1,0 +1,23 @@
+https://www.fdj.fr/jeux-de-tirage/loto/statistiques
+https://www.fdj.fr/jeux-de-tirage/euromillions-my-million/statistiques
+https://www.fdj.fr/jeux-de-tirage/eurodreams/statistiques
+
+
+Pour Loto et EuroMillions :
+
+- ouvrir le sitemap et lancer le scrape Loto_Stat, Euromillions_Sat
+- export données en fichiers .csv
+
+Pour EuroDreams
+- copier coller les stats de EuroDreams principaux puis chance
+
+Lancer les commandes
+convert.py loto
+convert.py euromillions
+convert.py eurodreams
+
+python upload_to_firestore.py loto
+python upload_to_firestore.py euromillions
+python upload_to_firestore.py eurodreams
+
+- vérifier la mise à jour de la collection lotoStats sur Firestore
