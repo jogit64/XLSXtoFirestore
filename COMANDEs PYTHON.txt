@@ -9,7 +9,8 @@ Pour Loto et EuroMillions :
 - export données en fichiers .csv
 
 Pour EuroDreams
-- copier coller les stats de EuroDreams principaux puis chance
+- copier coller les stats de EuroDreams principaux puis chance en excel, convertir en jj/mm/aa au lieu de aaa
+- puis repasser par un coller sur notepad, changer le format des cellules excel réceptrice en Texte et colle pour obtenir vraies valleur format aa et pas aaa
 
 Lancer les commandes
 convert.py loto
@@ -21,3 +22,4 @@ python upload_to_firestore.py euromillions
 python upload_to_firestore.py eurodreams
 
 - vérifier la mise à jour de la collection lotoStats sur Firestore
+

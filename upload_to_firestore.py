@@ -22,7 +22,7 @@ if jeu not in collections:
 collection_name = collections[jeu]
 json_file_path = f"{jeu}_Stat.json"
 
-cred = credentials.Certificate('./love4num-app-firebase-adminsdk-7to2v-d3946f960b.json')
+cred = credentials.Certificate('./love4num-app-firebase-admin.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
