@@ -23,3 +23,27 @@ python upload_to_firestore.py eurodreams
 
 - vérifier la mise à jour de la collection lotoStats sur Firestore
 
+Je souhaite publier une application sur google et mon objectif est d'essayer d'y intégrer de la publicité, car je ne l'ai jamais fait et j'aimerais savoir comment ça marche et comment on monétise une application. 
+
+Mon appllication est développée en expo react native et propose à l'utilisateur de rentrer des mots positifs, chargés d'espoir,  puis un algorithme transforme ses mots en numéros jouables aux trois types de tirages que propose la FDJ, le loto, l'euromillions et l'eurodreams. 
+
+Il y a donc trois séries distinctes dans leur format selon que l'utilisateur clique sur l'un des trois bouton de tirage.
+
+A noter, l'algorithme utilise le nombre d'or afin de renforcer dans l'esprit de l'utilisateur que ses mots d'amours associés avec le nombre d'or pourront donner des numéros gagnants.
+ 
+C'est donc une petite application sous forme de jeu rigolo, sans garanti de gains mais plutôt amusante pour suggérer des numéros que l'utilisteur peut essayer de jouer qui lui ressemblent. Une sorte de clin doeil à nos croyance et à comment on attire la chance.
+
+Je suis en train de faire le site web de cette application pour rendre disponible la politique de confidentialité en ligne comme l'exige Google dans le processus de publication.
+
+Mais, en parallèle de cette application j'ai aussi développé le même jeu mais en php sous forme de widget pour wordpress. Sauf que dans ce widget je n'utilise pas le nombre d'or. 
+
+Ce que je me dis c'est que la page d'accueil du site va présenter deux blocs, le premier pour inviter l'utilisateur à télécharger l'application sur le google play store et le second pour jouer gratuitement en ligne.
+
+Mais comme tu l'as compris, l'objectif pour moi serait plutôt que l'utilisateur aille télécharger mon application avec la publicité.
+
+Par conséquent, dans la version en ligne, dansle widget je n'utilise pas le nombre d'or.
+Je cherche donc une approche marketing, un petit contenu sou sforme de liste que je peux présenter dans chaque bloc qui fasse la promotion de chaque version. En gros il s'agit de dire que la version web inclu le nombre d'or ! et laisser penser que cela renforce peut être la chance, peu têtre en rappelant très brièvement ce qu'est le nombre d'or.
+
+Mais je me pose aussi la question de savoir si je laisse dans la version en ligne les trois tirages actifs ou si je retire par exemple l'euromillions car c'est là qu'on peut gagner le plus. Cela encore une fois pour inviter l'utilisateur à privilégier la version application.
+Et donc cela serait un autre argument pour à mettre dans la liste produit que sont les blocs.
+Tu vois ce que je veux dire ? Tu peux me proposer ces deux blocs ? L'application et le site, le jeu s'appelle Love4Num.
