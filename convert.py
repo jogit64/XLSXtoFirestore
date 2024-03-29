@@ -5,7 +5,7 @@ from datetime import datetime
 
 def format_date(date_obj):
     if isinstance(date_obj, datetime):
-        return date_obj.strftime('%d/%m/%Y')
+        return date_obj.strftime('%d/%m/%y')
     return date_obj
 
 def read_xlsx(file_path, ranges):
